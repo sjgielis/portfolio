@@ -1,0 +1,81 @@
+#proyectos{
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /*background-color:rgb(253, 235, 241) ;*/
+    padding: 50px;
+}
+
+.proyect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-proyect{
+    width: 100%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin: 3% 0;
+}
+
+
+.p-proyect{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20%;
+    margin-bottom: 3%;
+}
+
+.box-proyect{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.all-proyects{
+    width: 330px;
+    height: 330px;
+    border: 1px solid rgb(248, 179, 205);
+    background-color: white;
+    border-radius: 3%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;  
+    
+}    
+
+.figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+}
+
+figcaption{
+    font-size: 22px;
+    color: black;
+    display: flex;
+    justify-content: center;  
+    
+}
+
+
+.all-proyects:hover{
+    border: 1px solid rgb(250, 45, 120);
+     
+}
+
+.all-proyects:hover figcaption{
+    color:  rgb(250, 45, 120);
+}

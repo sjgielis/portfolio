@@ -1,0 +1,65 @@
+#hello{
+    width: 100%;
+    padding: 140px 0;
+    display: flex;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+.article-hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.orquest{
+   display: flex;
+   border: 3px double rgb(250, 45, 120);
+   border-radius: 100%;
+   width: 40%;
+   overflow: hidden;
+
+  }
+
+.greeting{
+    font-size: 30px;
+    font-weight: 50;
+    
+}
+
+.my-name{
+    font-family: 'Grandstander', cursive;
+    font-size: 60px;
+    font-weight: 800;
+    color:rgb(250, 45, 120) ;
+}
+
+.description{
+   font-size: 20px;
+}
+
+.button{
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(250, 45, 120) ;
+    box-shadow: 0 7px 20px rgba(0, 0 , 0 , .2);
+    border-radius: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color: rgb(207, 76, 124);
+}
+

@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+	/* fondoPrimario es la variable */
+	--rosafuerte:rgb(250, 45, 120);
+	--rosaClaro: rgb(255,209,226) ;
+	--rosaHover:rgb(207, 76, 124) ;
+}
+
+
+header{
+    background: var(--rosaClaro);
+    background: linear-gradient(0deg, rgba(255,209,226,1) 0%, rgba(253,235,241,1) 99%);
+    box-shadow: 0 7px 20px rgba(0, 0 , 0 , .2);
+    width: 100%;
+    height: 12%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    }
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    
+}   
+
+
+.nav-link{
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    text-align: center;   
+    
+}
+
+.menu-button{
+    background-color:var(--rosafuerte);
+    box-shadow: 0 7px 20px rgba(0, 0 , 0 , .2);
+    color: white;
+    border-radius: 100px ;
+    justify-content: center;
+    margin-top: 7px;
+    padding: 9px;
+}
+
+.nav-link:hover {
+    color: var(--rosafuerte) ;
+    
+}
+
+.menu-button:hover {
+    background-color: var(--rosaHover);
+    color: white;
+}
+

@@ -1,0 +1,61 @@
+footer{
+    background-color:rgb(250, 45, 120);
+    box-shadow: 0 7px 20px rgba(0, 0 , 0 , .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 18em;
+    
+}
+
+.footer-menu,  .list-redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+}
+
+.icon-site{
+    color: rgb(250, 45, 120);
+    font-size: 1.2em;
+    border-radius: 100%;
+    }
+
+.redes-item{
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+
+}    
+
+.fa-heart{
+    color: red;
+    }
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    }
+
+.footer-item{
+    margin: 1%;
+}    
+
+.love{
+    color: white;
+}
+
+.redes-item:hover{
+    border: 1px solid white;
+    background-color: rgb(250, 45, 120);
+}
+
+.redes-item:hover .icon-site{
+    color: white;
+}

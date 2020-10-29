@@ -1,0 +1,123 @@
+#contacto{
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(253, 235, 241) ;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+}
+:root {
+	/* fondoPrimario es la variable */
+	--rosafuerte:rgb(250, 45, 120);
+	--rosaClaro: rgb(255,209,226) ;
+	--rosaHover:rgb(207, 76, 124) ;
+}
+ 
+.card-contact{
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--rosafuerte);
+    flex-direction: row;
+    padding: 1%;
+}
+
+.contact-me{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.contact{
+    font-size: 60px;
+    display: flex;
+    justify-content: left;
+    font-weight: 800;
+    margin: 5%;
+}
+
+.sites-list{
+    list-style: none;
+    color: var(--rosafuerte);
+    margin-bottom: 15%;
+
+}
+
+.site {
+    color: var(--rosafuerte);
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    
+}
+
+
+.the-site{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    align-items: baseline;
+
+}
+
+.the-site:hover {
+    color: var(--rosafuerte);
+}
+
+.the-site:hover .site{
+    background-color: var(--rosafuerte);
+    color: white;
+}
+
+
+.why-contact{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 5%;
+    width: 60%;
+}
+
+.button{
+    background-color: var(--rosafuerte);
+    box-shadow: 0 7px 20px rgba(0, 0 , 0 , .2);
+    color: white;
+    border-radius: 100px ;
+    justify-content: center;
+    margin-top: 7px;
+    padding: 9px;
+    border: 0;
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-content: space-between;
+    
+}
+
+.name-form{
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    background-color: rgb(253, 235, 241) ;
+    border-radius: 20px;
+    width: 18em;
+    height: 2.5em;
+    border: 0;
+}
+
+
