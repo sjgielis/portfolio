@@ -68,8 +68,7 @@
     text-decoration: none;
     color: rgb(87, 85, 85);
     align-items: baseline;
-
-}
+}    
 
 .the-site:hover {
     color: var(--rosafuerte);
@@ -114,10 +113,44 @@
 
 form input{
     background-color: rgb(253, 235, 241) ;
+    border: 1px solid rgb(253, 235, 241) ;
     border-radius: 20px;
     width: 18em;
     height: 2.5em;
     border: 0;
+    padding: 10px; 
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
+textarea{
+    padding: 10px;
+}
 
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+
+
+input:focus,
+textarea:focus{
+  box-shadow: 0px 0px 7px var(--rosafuerte);
+  outline: 0;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+  box-shadow: 0px 0px 5px #87ee37;
+}
+
+input:invalid:not(:placeholder-shown):focus,
+textarea:invalid:not(:placeholder-shown):focus {
+  box-shadow: 0px 0px 5px #fd3d4d;
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border: 1px solid #fd3d4d;
+}
