@@ -4,11 +4,11 @@
     flex-direction: column;
     background: var(--rosaClaro);
     background: linear-gradient(0deg, rgba(255,209,226,1) 0%, rgba(253,235,241,1) 99%);
-    padding-top: 50px;
+    padding-top: 3.125rem;
+    min-height: 62.5rem;
 }
 
 :root {
-	/* fondoPrimario es la variable */
 	--rosafuerte:rgb(250, 45, 120);
 	--rosaClaro: rgb(255,209,226) ;
 	--rosaHover:rgb(207, 76, 124) ;
@@ -112,3 +112,15 @@
     font-size: 40px;
     padding: 30px;
 }   
+
+@media (max-width:600px){
+      
+   .all-icons{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+}

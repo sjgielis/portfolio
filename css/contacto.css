@@ -154,3 +154,28 @@ input:invalid:not(:placeholder-shown),
 textarea:invalid:not(:placeholder-shown) {
   border: 1px solid #fd3d4d;
 }
+@media (max-width: 600px){
+    .card-contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-form{
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .why-contact{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
