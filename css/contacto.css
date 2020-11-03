@@ -179,3 +179,24 @@ textarea:invalid:not(:placeholder-shown) {
         justify-content: center;
     }
 }
+
+@media (max-width: 400px){
+    #contacto{
+        padding: 1rem;
+    }
+    .contact{
+        font-size: 2.5rem;
+    }
+    .contact-me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name-form{
+        display: flex;
+        justify-content: flex-start;
+        }
+    
+
+    }

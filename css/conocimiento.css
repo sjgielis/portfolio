@@ -124,3 +124,21 @@
         text-align: center;
     }
 }
+
+
+@media (max-width:600px){
+    .title-knowladge{
+        font-size: 2.5rem;
+    }
+
+    .box-icon{
+        width: 150px;
+        height: 140px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+}

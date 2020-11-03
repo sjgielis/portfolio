@@ -79,3 +79,13 @@ figcaption{
 .all-proyects:hover figcaption{
     color:  rgb(250, 45, 120);
 }
+
+@media (max-width: 400px){
+    .title-proyect{
+        font-size: 2.5rem;
+    }
+    .proyect{
+        display: flex;
+        justify-content: center;
+    }
+}

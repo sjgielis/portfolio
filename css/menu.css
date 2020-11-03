@@ -68,22 +68,9 @@ header{
 /*Media querys*/
 
 @media (max-width: 600px){
-
+   
     header{
-      position:absolute;
-      width: 200%;
-      
-    }
-    .nav-header{
-        height: auto;
-        display: flex;
-        align-items: center;
-    }
-    .nav-menu{
-        height: auto;
-        flex-wrap:wrap ;
-        
-    }
-
+        display: none;
+    } 
 
   }
