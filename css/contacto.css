@@ -180,12 +180,13 @@ textarea:invalid:not(:placeholder-shown) {
     }
 }
 
-@media (max-width: 400px){
-    #contacto{
-        padding: 1rem;
+@media (max-width: 380px){
+    .card-contact{
+        padding: 0px;
+       
     }
     .contact{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .contact-me{
         display: flex;
