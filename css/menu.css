@@ -118,5 +118,9 @@ header{
         border-bottom: 1px solid grey;
       }
 
+      .nav-item:hover {
+        filter: brightness(1.75);
+      }
+
 
   }

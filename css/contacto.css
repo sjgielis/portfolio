@@ -180,9 +180,14 @@ textarea:invalid:not(:placeholder-shown) {
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 450px){
+    
+    
+    
     .card-contact{
         padding: 0px;
+        display: flex;
+        justify-content: flex-start;
        
     }
     .contact{
