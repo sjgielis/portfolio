@@ -10,6 +10,11 @@
 	--rosaHover:rgb(207, 76, 124) ;
 }
 
+#menu, #label-icon{
+    display: none;
+}
+
+
 
 header{
     background: var(--rosaClaro);
@@ -69,8 +74,49 @@ header{
 
 @media (max-width: 600px){
    
-    header{
+    .nav-menu{
         display: none;
     } 
+
+    #menu:checked  ~ .nav-menu{
+        display:block;
+    }
+      
+      #menu {
+        display: none;
+      }
+     
+
+      #label-icon {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid var(--rosafuerte);
+        color: var(--rosafuerte);
+        font-size: 2rem;
+        border-radius: 5px;
+        width: 45px;
+        height: 50px;
+        line-height: 2.8rem;
+        text-align: center;
+        user-select: none;
+        margin-right: 31.25rem;               
+      }
+
+      .nav-menu{
+        margin-top:0;
+        padding: 0;
+        width: 200px;
+        position: absolute;
+      }
+
+      .nav-item {
+        display: block;
+        background: rgb(245, 229, 241);
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+      }
+
 
   }

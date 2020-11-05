@@ -154,7 +154,7 @@ input:invalid:not(:placeholder-shown),
 textarea:invalid:not(:placeholder-shown) {
   border: 1px solid #fd3d4d;
 }
-@media (max-width: 600px){
+@media (max-width: 700px){
     .card-contact{
         width: 100%;
         display: flex;

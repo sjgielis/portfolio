@@ -59,3 +59,9 @@ footer{
 .redes-item:hover .icon-site{
     color: white;
 }
+
+@media (max-width:700px){
+    .footer-link{
+       font-size:10px;
+    }
+}

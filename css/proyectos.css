@@ -80,12 +80,16 @@ figcaption{
     color:  rgb(250, 45, 120);
 }
 
-@media (max-width: 400px){
+@media (max-width: 520px){
     .title-proyect{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        display: flex;
+        text-align: center;
+        
     }
     .proyect{
         display: flex;
         justify-content: center;
     }
 }
+
