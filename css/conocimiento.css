@@ -142,3 +142,9 @@
     }
 
 }
+@media (max-width: 350px){
+    .box-icon{
+        width: 8.5rem;
+        height: 8rem;
+}
+}

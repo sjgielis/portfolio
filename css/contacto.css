@@ -204,10 +204,8 @@ textarea:invalid:not(:placeholder-shown) {
 }
 
 @media (max-width: 450px){
-    
-    
-    
-    .card-contact{
+ 
+     .card-contact{
         padding: 0px;
         display: flex;
         justify-content: flex-start;
@@ -224,6 +222,14 @@ textarea:invalid:not(:placeholder-shown) {
         display: flex;
         justify-content: flex-start;
         }
-    
-
+   
     }
+    
+@media (max-width: 350px){
+    form input{
+        width: 10rem;
+        height: 1.5rem;
+
+
+}
+}
