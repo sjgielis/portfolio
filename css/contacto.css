@@ -170,9 +170,6 @@ textarea:invalid:not(:placeholder-shown) {
 
 }
 
-
-
-
 @media (max-width: 700px){
     #contacto{
         padding: 5px;
