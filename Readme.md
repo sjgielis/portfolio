@@ -1,14 +1,12 @@
 # Portafolio de Sa
 
-### Este proyecto está realizado para mostrar un ejemplo 
-de como seria el portafolio para la entrega final del módulo 01 de ADA.
+### Este proyecto está realizado para mostrar un ejemplo de como seria el portafolio para la entrega final del módulo 01 de ADA.
 
 <br>
 
 ***
 
-### Si quieres ver como quedó, puedes darle clik a este [enlace](sjgielis.github.io/portfolio/.)
-O puedes hacerlo desde [acá ]()
+### Si quieres ver como quedó, puedes darle clik a este [enlace](sjgielis.github.io/portfolio/.) O puedes hacerlo desde [acá ]()
 
 <br>
 
@@ -37,9 +35,7 @@ O puedes hacerlo desde [acá ]()
 
 ***
 
-### Este portafolio fue desarrollado para las chicas de la cursada 6 de ADA.
-Agradezco a [Ledy] (https://www.linkedin.com/in/leydykmoreno/
-), la ayuda proporcionada. 
+### Este portafolio fue desarrollado para las chicas de la cursada 6 de ADA. Agradezco a [Ledy](https://www.linkedin.com/in/leydykmoreno/), la ayuda proporcionada. 
 
 <br>
 
