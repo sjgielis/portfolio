@@ -6,7 +6,7 @@
 
 ***
 
-### Si quieres ver como quedó, puedes darle clik a este [enlace](sjgielis.github.io/portfolio/.) O puedes hacerlo desde [acá ]()
+### Si quieres ver como quedó, puedes darle clik a este [enlace](sjgielis.github.io/portfolio/.) O puedes hacerlo desde [acá ](https://optimistic-hermann-ccc4e3.netlify.app)
 
 <br>
 
@@ -14,7 +14,7 @@
 
 ### Si quieres tener el código en tu computadora, deberás de seguir estos pasos en tu terminal.
 
-- Ir al [repositorio] (https://github.com/sjgielis/portfolio)
+- Ir al [repositorio](https://github.com/sjgielis/portfolio)
 - Darle click al botón de forkear
 - Darle click al botón de code
 - Copiar la url
