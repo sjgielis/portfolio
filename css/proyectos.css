@@ -37,13 +37,15 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* probando transiciones */
+    overflow:hidden;
     
 }
 
 
 .all-proyects{
-    width: 330px;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border: 1px solid rgb(248, 179, 205);
     background-color: white;
     border-radius: 3%;
@@ -72,12 +74,14 @@ figcaption{
 
 
 .all-proyects:hover{
-    border: 1px solid rgb(250, 45, 120);
-     
+    border: 2px solid rgb(250, 45, 120);
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
 }
 
 .all-proyects:hover figcaption{
     color:  rgb(250, 45, 120);
+    
 }
 
 @media (max-width: 520px){
