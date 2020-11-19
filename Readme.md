@@ -1,18 +1,18 @@
-# Portafolio de Sa
+# Portfolio de Sa
 
-### Este proyecto está realizado para mostrar un ejemplo de como seria el portafolio para la entrega final del módulo 01 de ADA.
-
-<br>
-
-***
-
-### Si quieres ver como quedó, puedes darle clik a este [enlace](sjgielis.github.io/portfolio/.) O puedes hacerlo desde [acá ](https://optimistic-hermann-ccc4e3.netlify.app)
+### Este proyecto está realizado para la evaluación del módulo 1 de ADA y mostrar un ejemplo de como seria el portfolio final.
 
 <br>
 
 ***
 
-### Si quieres tener el código en tu computadora, deberás de seguir estos pasos en tu terminal.
+### Puedes ver como quedó dándole clik a este [enlace](sjgielis.github.io/portfolio/.) O puedes hacerlo desde [acá ](https://optimistic-hermann-ccc4e3.netlify.app)
+
+<br>
+
+***
+
+### Si quieres tener el código en tu computadora, deberás seguir estos pasos en tu terminal.
 
 - Ir al [repositorio](https://github.com/sjgielis/portfolio)
 - Darle click al botón de forkear
@@ -35,7 +35,7 @@
 
 ***
 
-### Este portafolio fue desarrollado para las chicas de la cursada 6 de ADA. Agradezco a [Ledy](https://www.linkedin.com/in/leydykmoreno/), la ayuda proporcionada. 
+### Este portfolio fue desarrollado para las chicas de la cursada 6 de ADA. Agradezco fundamentalmente a mi esposo e hijos que sin su ayuda no hubiese podido, al profe Jonh por darnos las mejores clases, el aliento y el apoyo para que nunca nos rindamos y al grupo de compañeras/amigas que me dio este curso, por las cuales todo resulta mas sensillo. 
 
 <br>
 
