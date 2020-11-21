@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
     <meta name="author" content="Sabrina Gielis">
     <meta name="description" content="Este portfolio es para la evalución del módulo 1 de ADA">
     <meta name="keywords" content="portfolio, developers, front end, programacion">
+    
+    
     <meta property="og:title" content="Portfolio">
     <meta property="og:description" content="Este portfolio es para la evaluación del módulo 1 de ADA">
     <meta property="og:type" content="article">
@@ -35,14 +39,22 @@
 <body>
     <!-- Comienzo del header-->
     <header>
-        <nav class="nav-header">
+        <nav class="nav-header" id="menu-principal" aria-label="Menu">
             <input type="checkbox" id="menu">
             <label for="menu" id="label-icon">☰</label>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#hello" class="nav-link">HOLA</a></li>
-                <li class="nav-item"><a href="#conocimiento" class="nav-link">CONOCIMIENTOS</a></li>
-                <li class="nav-item"><a href="#proyectos" class="nav-link">PROYECTO</a></li>
-                <li class="nav-item"><a href="#contacto" class="nav-link menu-button">CONTACTO</a></li>
+                <li class="nav-item">
+                 <a aria-label = "hola" href="#hello" class="nav-link">HOLA</a>
+                 </li>
+                <li class="nav-item">
+                 <a aria-laber = "conocimientos" href="#conocimiento" class="nav-link">
+                 CONOCIMIENTOS</a>
+                 </li>
+                <li class="nav-item">
+                 <a aria-label = "proyectos" href="#proyectos" class="nav-link">PROYECTO</a>
+                 </li>
+                <li class="nav-item">
+                <a aria-label = "contacto" href="#contacto" class="nav-link menu-button">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -51,13 +63,19 @@
     <!-- Comiento seccion  Hello-->
     <section class="about-me" id="hello">
         <article class="article-hello">
-            <p class="greeting">¡Hola! Soy</p>
-            <h1 class="my-name">Sa Gielis</h1>
+            <p aria-label = "Hola, soy" class="greeting">
+            ¡Hola! Soy
+            </p>
+            <h1 aria-label = "Sa Gielis" class="my-name">
+            Sa Gielis
+            </h1>
             <p class="description">Desarrolladora, hiper versátil y supermamá </p>
-            <a class="button" href="#proyectos">LO QUE HAGO</a>
+            <a  aria-label = "lo que hago" class="button" href="#proyectos">
+            LO QUE HAGO
+            </a>
         </article>
         <figure class="orquest">
-            <img class="img" src="./img/imagen.jpg" alt="imagen" width="100%">   
+            <img aria-hidden="true" src="./img/imagen.jpg"   class="img" src="./img/imagen.jpg" alt="imagen" width="100%">   
         </figure>
     </section>
    <!-- Fin seccion Hello-->
